@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -36,25 +36,25 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -158,29 +158,100 @@
 </layers>
 <board>
 <plain>
-<wire x1="71.95823125" y1="0.52018125" x2="35.95823125" y2="0.52018125" width="0.2" layer="46"/>
-<wire x1="35.95823125" y1="0.52018125" x2="-0.04176875" y2="0.52018125" width="0.2" layer="46"/>
-<wire x1="-0.04176875" y1="0.52018125" x2="-0.04176875" y2="254.2187" width="0.2" layer="46"/>
-<wire x1="-0.04176875" y1="254.2187" x2="-0.04176875" y2="507.91721875" width="0.2" layer="46"/>
-<wire x1="-0.04176875" y1="507.91721875" x2="35.95823125" y2="507.91721875" width="0.2" layer="46"/>
-<wire x1="35.95823125" y1="507.91721875" x2="71.95823125" y2="507.91721875" width="0.2" layer="46"/>
-<wire x1="71.95823125" y1="507.91721875" x2="71.95823125" y2="254.2187" width="0.2" layer="46"/>
-<wire x1="71.95823125" y1="254.2187" x2="71.95823125" y2="0.52018125" width="0.2" layer="46"/>
-<hole x="2.953" y="504.841" drill="3.2"/>
-<hole x="68.993" y="504.8918" drill="3.2"/>
-<hole x="2.9022" y="3.6228" drill="3.2"/>
-<hole x="68.9168" y="3.6228" drill="3.2"/>
-<hole x="3.0038" y="127.4732" drill="3.2"/>
-<hole x="69.0184" y="127.4732" drill="3.2"/>
-<hole x="2.8768" y="254.2192" drill="3.2"/>
-<hole x="69.0692" y="254.2446" drill="3.2"/>
-<hole x="2.9276" y="381.1176" drill="3.2"/>
-<hole x="68.9422" y="381.2192" drill="3.2"/>
-<text x="27.94" y="504.19" size="1.4224" layer="21" align="center">5V</text>
-<text x="33.02" y="504.19" size="1.4224" layer="21" align="center">GND</text>
-<text x="38.1" y="504.19" size="1.4224" layer="21" align="center">GND</text>
+<wire x1="75.140159375" y1="48.26" x2="75.140159375" y2="2.7026" width="0.025" layer="46"/>
+<wire x1="75.140159375" y1="2.7026" x2="72.600159375" y2="0.1626" width="0.025" layer="46"/>
+<wire x1="72.600159375" y1="0.1626" x2="38.1" y2="0.1626" width="0.025" layer="46"/>
+<wire x1="38.1" y1="0.1626" x2="3.599840625" y2="0.1626" width="0.025" layer="46"/>
+<wire x1="3.599840625" y1="0.1626" x2="1.059840625" y2="2.7026" width="0.025" layer="46"/>
+<wire x1="1.059840625" y1="2.7026" x2="1.059840625" y2="48.26" width="0.025" layer="46"/>
+<wire x1="1.059840625" y1="48.26" x2="1.059840625" y2="93.8174" width="0.025" layer="46"/>
+<wire x1="1.059840625" y1="93.8174" x2="3.599840625" y2="96.3574" width="0.025" layer="46"/>
+<wire x1="3.599840625" y1="96.3574" x2="38.1" y2="96.3574" width="0.025" layer="46"/>
+<wire x1="38.1" y1="96.3574" x2="72.600159375" y2="96.3574" width="0.025" layer="46"/>
+<wire x1="72.600159375" y1="96.3574" x2="75.140159375" y2="93.8174" width="0.025" layer="46"/>
+<wire x1="75.140159375" y1="93.8174" x2="75.140159375" y2="48.26" width="0.025" layer="46"/>
+<hole x="6.05" y="91.35" drill="4"/>
+<hole x="70.15" y="91.4" drill="4"/>
+<hole x="70.1" y="5.2" drill="4"/>
+<hole x="6.1" y="5.2" drill="4"/>
 </plain>
 <libraries>
+<library name="SparkFun-Connectors" urn="urn:adsk.eagle:library:513">
+<description>&lt;h3&gt;SparkFun Connectors&lt;/h3&gt;
+This library contains electrically-functional connectors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:footprint:37893/1" library_version="1">
+<description>&lt;h3&gt;USB - microB SMD&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:5&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”https://www.sparkfun.com/datasheets/Prototyping/Micro-USB.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;USB_MICRO-B&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<text x="-4.66" y="5.96" size="0.3048" layer="51">PCB Front</text>
+<text x="-1.27" y="4.699" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.27" y="-4.699" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<wire x1="-3" y1="5.6" x2="-2.3" y2="5.3" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.4" y2="5.5" width="0.08" layer="51"/>
+<wire x1="-2.3" y1="5.3" x2="-2.5" y2="5.2" width="0.08" layer="51"/>
+<wire x1="-2.15" y1="3.9" x2="-2.15" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="3.9" x2="2.85" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="3.9" x2="-2.15" y2="3.9" width="0.127" layer="49"/>
+<wire x1="2.85" y1="-3.9" x2="-2.15" y2="-3.9" width="0.127" layer="49"/>
+<wire x1="2.981959375" y1="3.99288125" x2="2" y2="3.99288125" width="0.3048" layer="21"/>
+<wire x1="2" y1="3.99288125" x2="2" y2="4" width="0.3048" layer="21"/>
+<wire x1="3" y1="4" x2="3" y2="3" width="0.3048" layer="21"/>
+<wire x1="2" y1="-4" x2="3" y2="-4" width="0.3048" layer="21"/>
+<wire x1="3" y1="-4" x2="3" y2="-3" width="0.3048" layer="21"/>
+<wire x1="-1" y1="4" x2="-2" y2="4" width="0.3048" layer="21"/>
+<wire x1="-1" y1="-4" x2="-2" y2="-4" width="0.3048" layer="21"/>
+<wire x1="-2" y1="7" x2="-2" y2="0" width="0" layer="51"/>
+<smd name="D+" x="2.725" y="0" dx="0.4" dy="1.45" layer="1" rot="R90"/>
+<smd name="D-" x="2.725" y="0.65" dx="0.4" dy="1.45" layer="1" rot="R90"/>
+<smd name="VBUS" x="2.725" y="1.3" dx="0.4" dy="1.45" layer="1" rot="R90"/>
+<smd name="ID" x="2.725" y="-0.65" dx="0.4" dy="1.45" layer="1" rot="R90"/>
+<smd name="GND" x="2.725" y="-1.3" dx="0.4" dy="1.45" layer="1" rot="R90"/>
+<smd name="SHIELD1" x="0" y="3.685" dx="1.8" dy="1.5" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="SHIELD3" x="0" y="0" dx="2.5" dy="1.5" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="SHIELD2" x="0" y="-3.685" dx="1.8" dy="1.5" layer="1" rot="R90" stop="no" cream="no"/>
+<hole x="2.2" y="1.9" drill="0.85"/>
+<hole x="2.2" y="-1.9" drill="0.85"/>
+<rectangle x1="-0.75" y1="2.784" x2="0.75" y2="4.584" layer="31"/>
+<rectangle x1="-0.35" y1="-0.75" x2="0.35" y2="0.75" layer="31"/>
+<rectangle x1="-0.75" y1="-4.584" x2="0.75" y2="-2.784" layer="31"/>
+<rectangle x1="-0.85" y1="2.684" x2="0.85" y2="4.684" layer="29"/>
+<rectangle x1="-0.85" y1="-4.684" x2="0.85" y2="-2.684" layer="29"/>
+<rectangle x1="-0.85" y1="-1.35" x2="0.85" y2="1.35" layer="29"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="USB-B-MICRO-SMD" urn="urn:adsk.eagle:package:38238/1" type="box" library_version="1">
+<description>USB - microB SMD
+Specifications:
+Pin count:5
+
+Datasheet referenced for footprint
+Example device(s):
+USB_MICRO-B
+</description>
+<packageinstances>
+<packageinstance name="USB-B-MICRO-SMD"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 <library name="con-ml" urn="urn:adsk.eagle:library:164">
 <description>&lt;b&gt;Harting  Connectors&lt;/b&gt;&lt;p&gt;
 Low profile connectors, straight&lt;p&gt;
@@ -353,27 +424,31 @@ Low profile connectors, straight&lt;p&gt;
 <description>&lt;b&gt;https://componentsearchengine.com&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
 <packages>
-<package name="SHDR4W166P0X508_1X4_2540X965X9">
-<description>&lt;b&gt;350211-1&lt;/b&gt;&lt;br&gt;
+<package name="641737-1">
+<description>&lt;b&gt;641737-1&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1" x="0" y="0" drill="1.85" diameter="2.775" shape="square"/>
-<pad name="2" x="5.08" y="0" drill="1.85" diameter="2.775"/>
-<pad name="3" x="10.16" y="0" drill="1.85" diameter="2.775"/>
-<pad name="4" x="15.24" y="0" drill="1.85" diameter="2.775"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-5.33" y1="-5.77" x2="-5.33" y2="4.38" width="0.05" layer="51"/>
-<wire x1="-5.33" y1="4.38" x2="20.57" y2="4.38" width="0.05" layer="51"/>
-<wire x1="20.57" y1="4.38" x2="20.57" y2="-5.77" width="0.05" layer="51"/>
-<wire x1="20.57" y1="-5.77" x2="-5.33" y2="-5.77" width="0.05" layer="51"/>
-<wire x1="-5.08" y1="-5.52" x2="-5.08" y2="4.13" width="0.1" layer="51"/>
-<wire x1="-5.08" y1="4.13" x2="20.32" y2="4.13" width="0.1" layer="51"/>
-<wire x1="20.32" y1="4.13" x2="20.32" y2="-5.52" width="0.1" layer="51"/>
-<wire x1="20.32" y1="-5.52" x2="-5.08" y2="-5.52" width="0.1" layer="51"/>
-<wire x1="0" y1="-5.52" x2="20.32" y2="-5.52" width="0.2" layer="21"/>
-<wire x1="20.32" y1="-5.52" x2="20.32" y2="4.13" width="0.2" layer="21"/>
-<wire x1="20.32" y1="4.13" x2="-5.08" y2="4.13" width="0.2" layer="21"/>
-<wire x1="-5.08" y1="4.13" x2="-5.08" y2="0" width="0.2" layer="21"/>
+<pad name="1" x="7.62" y="0" drill="1.6" diameter="2.4"/>
+<pad name="2" x="2.54" y="0" drill="1.6" diameter="2.4"/>
+<pad name="3" x="-2.54" y="0" drill="1.6" diameter="2.4"/>
+<pad name="4" x="-7.62" y="0" drill="1.6" diameter="2.4"/>
+<hole x="-10.16" y="2.54" drill="2.54"/>
+<hole x="-5.08" y="10.16" drill="4"/>
+<hole x="5.08" y="10.16" drill="4"/>
+<hole x="10.16" y="2.54" drill="2.54"/>
+<text x="-0.575" y="4.968" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.575" y="4.968" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-12.7" y1="12" x2="12.7" y2="12" width="0.2" layer="51"/>
+<wire x1="12.7" y1="12" x2="12.7" y2="-1" width="0.2" layer="51"/>
+<wire x1="12.7" y1="-1" x2="-12.7" y2="-1" width="0.2" layer="51"/>
+<wire x1="-12.7" y1="-1" x2="-12.7" y2="12" width="0.2" layer="51"/>
+<wire x1="-12.7" y1="12" x2="-12.7" y2="-1" width="0.2" layer="21"/>
+<wire x1="12.7" y1="12" x2="12.7" y2="-1" width="0.2" layer="21"/>
+<wire x1="12.7" y1="12" x2="6.364" y2="12" width="0.2" layer="21"/>
+<wire x1="-12.7" y1="12" x2="-6.364" y2="12" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="12" x2="3.8" y2="12" width="0.2" layer="21"/>
+<wire x1="-12.7" y1="-1" x2="-8.623" y2="-1" width="0.2" layer="21"/>
+<wire x1="12.7" y1="-1" x2="8.623" y2="-1" width="0.2" layer="21"/>
+<circle x="7.523" y="-1.984" radius="0.07178125" width="0.2" layer="25"/>
 </package>
 </packages>
 </library>
@@ -570,185 +645,45 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.72" y="7.24" smashed="yes">
-<attribute name="MF" value="" x="35.72" y="7.24" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.72" y="7.24" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.51" y="12.32" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.72" y="7.24" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.72" y="7.24" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.48" y="12.32" size="1.778" layer="27" ratio="10"/>
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="USB-B-MICRO-SMD" package3d_urn="urn:adsk.eagle:package:38238/1" value="" x="23.17" y="2.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.471" y="0.89" size="0.6096" layer="25" font="vector" ratio="20" rot="R90"/>
+<attribute name="PROD_ID" value="CONN-11752" x="23.17" y="2.16" size="1.778" layer="27" font="vector" rot="R90" display="off"/>
+<attribute name="VALUE" x="27.869" y="0.89" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-left"/>
 </element>
-<element name="SV2" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="33.02" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="33.02" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="33.02" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="38.1" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="33.02" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="33.02" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="38.1" size="1.778" layer="27" ratio="10"/>
+<element name="SV1" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="38.1" y="24.13" smashed="yes">
+<attribute name="MF" value="" x="38.1" y="24.13" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="MPN" value="" x="38.1" y="24.13" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="OC_FARNELL" value="unknown" x="38.1" y="24.13" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="OC_NEWARK" value="unknown" x="38.1" y="24.13" size="1.778" layer="27" font="vector" display="off"/>
+<attribute name="VALUE" x="22.86" y="29.21" size="1.778" layer="27" ratio="10"/>
 </element>
-<element name="SV3" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="58.42" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="58.42" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="58.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="63.5" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="58.42" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="58.42" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="63.5" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV4" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="83.82" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="83.82" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="83.82" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="88.9" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="83.82" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="83.82" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="88.9" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV5" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="109.22" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="109.22" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="109.22" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="114.3" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="109.22" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="109.22" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="114.3" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV6" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="134.62" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="134.62" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="134.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="139.7" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="134.62" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="134.62" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="139.7" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV7" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="160.02" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="160.02" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="160.02" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="165.1" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="160.02" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="160.02" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="165.1" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV8" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="185.42" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="185.42" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="185.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="190.5" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="185.42" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="185.42" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="190.5" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV9" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="210.82" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="210.82" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="210.82" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="215.9" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="210.82" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="210.82" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="215.9" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV10" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="236.22" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="236.22" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="236.22" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="241.3" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="236.22" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="236.22" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="241.3" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV11" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="261.62" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="261.62" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="261.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="266.7" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="261.62" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="261.62" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="266.7" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV12" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="287.02" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="287.02" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="287.02" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="292.1" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="287.02" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="287.02" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="292.1" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV13" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="312.42" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="312.42" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="312.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="317.5" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="312.42" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="312.42" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="317.5" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV14" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="337.82" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="337.82" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="337.82" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="342.9" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="337.82" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="337.82" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="342.9" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV15" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="363.22" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="363.22" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="363.22" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="368.3" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="363.22" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="363.22" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="368.3" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV16" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="388.62" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="388.62" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="388.62" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="393.7" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="388.62" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="388.62" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="393.7" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV17" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="414.02" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="414.02" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="414.02" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="419.1" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="414.02" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="414.02" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="419.1" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV18" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="439.42" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="439.42" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="439.42" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="444.5" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="439.42" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="439.42" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="444.5" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV19" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.56" y="464.82" smashed="yes">
-<attribute name="MF" value="" x="35.56" y="464.82" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.56" y="464.82" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.35" y="469.9" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.56" y="464.82" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.56" y="464.82" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.32" y="469.9" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="SV20" library="con-ml" library_urn="urn:adsk.eagle:library:164" package="ML40" package3d_urn="urn:adsk.eagle:package:8681/1" value="" x="35.941" y="489.839" smashed="yes">
-<attribute name="MF" value="" x="35.941" y="489.839" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="" x="35.941" y="489.839" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="6.731" y="494.919" size="1.778" layer="25" ratio="10"/>
-<attribute name="OC_FARNELL" value="unknown" x="35.941" y="489.839" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="35.941" y="489.839" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="20.701" y="494.919" size="1.778" layer="27" ratio="10"/>
-</element>
-<element name="J1" library="SamacSys_Parts" package="SHDR4W166P0X508_1X4_2540X965X9" value="350211-1" x="43.18" y="501.65" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="4 way,15amp Mate-N-lock pcb socket" x="43.18" y="501.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="9.91mm" x="43.18" y="501.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="43.18" y="501.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="350211-1" x="43.18" y="501.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-3502111" x="43.18" y="501.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-3502111" x="43.18" y="501.65" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="46.99" y="499.11" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="27.94" y="499.11" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="J2" library="SamacSys_Parts" package="641737-1" value="641737-1" x="52.07" y="12.7" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="4w pcb mount R/A Pin Header" x="52.07" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="52.07" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="52.07" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="641737-1" x="52.07" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-6417371" x="52.07" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-6417371" x="52.07" y="12.7" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="62.145" y="3.792" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="51.845" y="6.112" size="1.27" layer="27" rot="R180" align="center"/>
 </element>
 </elements>
 <signals>
+<signal name="VBUS">
+<contactref element="J1" pad="VBUS"/>
+</signal>
 <signal name="GND">
-<contactref element="J1" pad="3"/>
-<contactref element="J1" pad="2"/>
-<wire x1="33.02" y1="501.65" x2="38.1" y2="501.65" width="0" layer="19" extent="1-1"/>
+<contactref element="J1" pad="GND"/>
+<contactref element="J2" pad="3"/>
+<contactref element="J2" pad="2"/>
+<wire x1="49.53" y1="12.7" x2="54.61" y2="12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="24.47" y1="4.885" x2="49.53" y2="12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="5V">
-<contactref element="J1" pad="4"/>
+<contactref element="J2" pad="4"/>
+</signal>
+<signal name="12V">
+<contactref element="J2" pad="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
