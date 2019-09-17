@@ -642,23 +642,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" technology="12TR"/>
-<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$1" library="ShittyAddOn" deviceset="SAO1.69BIS" device=""/>
-<part name="U$2" library="ShittyAddOn" deviceset="SAO1.69BIS" device=""/>
-<part name="U$3" library="ShittyAddOn" deviceset="SAO1.69BIS" device=""/>
-<part name="U$4" library="ShittyAddOn" deviceset="SAO1.69BIS" device=""/>
-<part name="U$5" library="ShittyAddOn" deviceset="SAO1.69BIS" device=""/>
-<part name="U$6" library="ShittyAddOn" deviceset="SAO1.69BIS" device=""/>
-<part name="U$7" library="ShittyAddOn" deviceset="SAO1.69BIS" device=""/>
-<part name="U$8" library="ShittyAddOn" deviceset="SAO1.69BIS" device=""/>
-<part name="U$9" library="ShittyAddOn" deviceset="SAO1.69BIS" device=""/>
-<part name="U$10" library="ShittyAddOn" deviceset="SAO1.69BIS" device=""/>
-<part name="3V1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device="" value="3V3"/>
-<part name="3V2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device="" value="3V3"/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" technology="12TR"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -844,37 +828,8 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <plain>
 </plain>
 <instances>
-<instance part="IC1" gate="G$1" x="15.24" y="81.28" smashed="yes">
-<attribute name="NAME" x="17.78" y="73.66" size="1.778" layer="95"/>
-<attribute name="VALUE" x="17.78" y="71.12" size="1.778" layer="96"/>
-</instance>
-<instance part="SUPPLY2" gate="G$1" x="5.08" y="83.82" smashed="yes">
-<attribute name="VALUE" x="5.08" y="86.614" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="GND3" gate="1" x="15.24" y="68.58" smashed="yes">
-<attribute name="VALUE" x="12.7" y="66.04" size="1.778" layer="96"/>
-</instance>
-<instance part="U$1" gate="G$1" x="53.34" y="78.74" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="71.12" y="78.74" smashed="yes"/>
-<instance part="U$3" gate="G$1" x="88.9" y="78.74" smashed="yes"/>
-<instance part="U$4" gate="G$1" x="106.68" y="78.74" smashed="yes"/>
-<instance part="U$5" gate="G$1" x="124.46" y="78.74" smashed="yes"/>
-<instance part="U$6" gate="G$1" x="53.34" y="45.72" smashed="yes"/>
-<instance part="U$7" gate="G$1" x="71.12" y="45.72" smashed="yes"/>
-<instance part="U$8" gate="G$1" x="88.9" y="45.72" smashed="yes"/>
-<instance part="U$9" gate="G$1" x="106.68" y="45.72" smashed="yes"/>
-<instance part="U$10" gate="G$1" x="124.46" y="45.72" smashed="yes"/>
-<instance part="3V1" gate="G$1" x="134.62" y="101.6" smashed="yes">
-<attribute name="VALUE" x="134.62" y="104.394" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="3V2" gate="G$1" x="137.16" y="66.04" smashed="yes">
-<attribute name="VALUE" x="137.16" y="68.834" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="GND5" gate="1" x="38.1" y="22.86" smashed="yes">
 <attribute name="VALUE" x="35.56" y="20.32" size="1.778" layer="96"/>
-</instance>
-<instance part="GND4" gate="1" x="38.1" y="53.34" smashed="yes">
-<attribute name="VALUE" x="35.56" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="G$1" x="170.18" y="86.36" smashed="yes">
 <attribute name="NAME" x="172.72" y="78.74" size="1.778" layer="95"/>
@@ -1116,66 +1071,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </busses>
 <nets>
 <net name="GND" class="0">
-<segment>
-<pinref part="GND3" gate="1" pin="GND"/>
-<pinref part="IC1" gate="G$1" pin="ADJ"/>
-<wire x1="15.24" y1="71.12" x2="15.24" y2="73.66" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="38.1" y1="25.4" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$10" gate="G$1" pin="GND"/>
-<wire x1="119.38" y1="35.56" x2="119.38" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="30.48" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="30.48" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="30.48" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="30.48" x2="38.1" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="30.48" x2="38.1" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U$6" gate="G$1" pin="GND"/>
-<wire x1="48.26" y1="35.56" x2="48.26" y2="30.48" width="0.1524" layer="91"/>
-<junction x="48.26" y="30.48"/>
-<pinref part="U$7" gate="G$1" pin="GND"/>
-<wire x1="66.04" y1="35.56" x2="66.04" y2="30.48" width="0.1524" layer="91"/>
-<junction x="66.04" y="30.48"/>
-<pinref part="U$8" gate="G$1" pin="GND"/>
-<wire x1="83.82" y1="35.56" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
-<junction x="83.82" y="30.48"/>
-<pinref part="U$9" gate="G$1" pin="GND"/>
-<wire x1="101.6" y1="35.56" x2="101.6" y2="30.48" width="0.1524" layer="91"/>
-<junction x="101.6" y="30.48"/>
-<label x="66.04" y="27.94" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="48.26" y1="68.58" x2="48.26" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="66.04" x2="38.1" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="66.04" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$5" gate="G$1" pin="GND"/>
-<wire x1="48.26" y1="66.04" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="66.04" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="66.04" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="66.04" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
-<junction x="48.26" y="66.04"/>
-<pinref part="U$4" gate="G$1" pin="GND"/>
-<wire x1="101.6" y1="68.58" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
-<junction x="101.6" y="66.04"/>
-<pinref part="U$3" gate="G$1" pin="GND"/>
-<wire x1="83.82" y1="68.58" x2="83.82" y2="66.04" width="0.1524" layer="91"/>
-<junction x="83.82" y="66.04"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="66.04" y1="68.58" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
-<junction x="66.04" y="66.04"/>
-<wire x1="38.1" y1="58.42" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
-<label x="68.58" y="63.5" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="38.1" y1="55.88" x2="38.1" y2="58.42" width="0.1524" layer="91"/>
-</segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="IC2" gate="G$1" pin="ADJ"/>
@@ -1626,20 +1521,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </net>
 <net name="5V" class="0">
 <segment>
-<wire x1="5.08" y1="81.28" x2="5.08" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="G$1" pin="5V"/>
-<pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="5.08" y1="81.28" x2="7.62" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="134.62" y1="99.06" x2="134.62" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="3V1" gate="G$1" pin="5V"/>
-</segment>
-<segment>
-<wire x1="137.16" y1="63.5" x2="137.16" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="3V2" gate="G$1" pin="5V"/>
-</segment>
-<segment>
 <wire x1="160.02" y1="86.36" x2="160.02" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
 <pinref part="IC2" gate="G$1" pin="IN"/>
@@ -1743,58 +1624,6 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </segment>
 </net>
 <net name="3V3" class="0">
-<segment>
-<pinref part="U$1" gate="G$1" pin="3V3"/>
-<wire x1="48.26" y1="91.44" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="96.52" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="96.52" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="96.52" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="96.52" x2="134.62" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="134.62" y1="96.52" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="3V3"/>
-<wire x1="66.04" y1="91.44" x2="66.04" y2="96.52" width="0.1524" layer="91"/>
-<junction x="66.04" y="96.52"/>
-<pinref part="U$3" gate="G$1" pin="3V3"/>
-<wire x1="83.82" y1="91.44" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
-<junction x="83.82" y="96.52"/>
-<pinref part="U$4" gate="G$1" pin="3V3"/>
-<wire x1="101.6" y1="91.44" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
-<junction x="101.6" y="96.52"/>
-<pinref part="U$5" gate="G$1" pin="3V3"/>
-<wire x1="119.38" y1="91.44" x2="119.38" y2="96.52" width="0.1524" layer="91"/>
-<junction x="119.38" y="96.52"/>
-<label x="91.44" y="96.52" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$6" gate="G$1" pin="3V3"/>
-<wire x1="48.26" y1="58.42" x2="48.26" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="60.96" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="60.96" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="60.96" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="60.96" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="60.96" x2="137.16" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="137.16" y1="60.96" x2="137.16" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="U$7" gate="G$1" pin="3V3"/>
-<wire x1="66.04" y1="58.42" x2="66.04" y2="60.96" width="0.1524" layer="91"/>
-<junction x="66.04" y="60.96"/>
-<pinref part="U$8" gate="G$1" pin="3V3"/>
-<wire x1="83.82" y1="58.42" x2="83.82" y2="60.96" width="0.1524" layer="91"/>
-<junction x="83.82" y="60.96"/>
-<pinref part="U$9" gate="G$1" pin="3V3"/>
-<wire x1="101.6" y1="58.42" x2="101.6" y2="60.96" width="0.1524" layer="91"/>
-<junction x="101.6" y="60.96"/>
-<pinref part="U$10" gate="G$1" pin="3V3"/>
-<wire x1="119.38" y1="58.42" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
-<junction x="119.38" y="60.96"/>
-<label x="86.36" y="60.96" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
-<wire x1="22.86" y1="81.28" x2="25.4" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="25.4" y1="81.28" x2="25.4" y2="86.36" width="0.1524" layer="91"/>
-<label x="25.4" y="83.82" size="1.778" layer="95" rot="R90"/>
-</segment>
 <segment>
 <pinref part="U$11" gate="G$1" pin="3V3"/>
 <wire x1="203.2" y1="96.52" x2="203.2" y2="101.6" width="0.1524" layer="91"/>

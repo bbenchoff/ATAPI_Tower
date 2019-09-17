@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="mm" altunit="mm"/>
+<grid distance="50" unitdist="mil" unit="inch" style="lines" multiple="1" display="no" altdistance="0.05" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -30,12 +30,12 @@
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -79,59 +79,59 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -140,21 +140,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -176,7 +176,6 @@
 <wire x1="235.21156875" y1="537.5554" x2="235.21156875" y2="715.7008" width="0.304" layer="20"/>
 <hole x="8.509" y="710.692" drill="4.2"/>
 <hole x="230.2" y="710.7" drill="4.2"/>
-<hole x="119.4" y="359.4" drill="4.2"/>
 <hole x="8.55" y="8.1" drill="4.2"/>
 <hole x="230.2" y="8.2" drill="4.2"/>
 </plain>
@@ -210,6 +209,77 @@
 <wire x1="-12.7" y1="-1" x2="-8.623" y2="-1" width="0.2" layer="21"/>
 <wire x1="12.7" y1="-1" x2="8.623" y2="-1" width="0.2" layer="21"/>
 <circle x="7.523" y="-1.984" radius="0.07178125" width="0.2" layer="25"/>
+</package>
+</packages>
+</library>
+<library name="v-reg" urn="urn:adsk.eagle:library:409">
+<description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="SOT223" urn="urn:adsk.eagle:footprint:30315/1" library_version="3">
+<description>&lt;b&gt;Small Outline Transistor 223&lt;/b&gt;&lt;p&gt;
+PLASTIC PACKAGE CASE 318E-04&lt;br&gt;
+Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
+<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="0" y1="-0.7" x2="0" y2="0.6" width="0.127" layer="48"/>
+<wire x1="0" y1="0.6" x2="-0.2" y2="0.2" width="0.127" layer="48"/>
+<wire x1="-0.2" y1="0.2" x2="0.2" y2="0.2" width="0.127" layer="48"/>
+<wire x1="0.2" y1="0.2" x2="0" y2="0.6" width="0.127" layer="48"/>
+<wire x1="0" y1="-0.7" x2="0.2" y2="-0.3" width="0.127" layer="48"/>
+<wire x1="0.2" y1="-0.3" x2="-0.2" y2="-0.3" width="0.127" layer="48"/>
+<wire x1="-0.2" y1="-0.3" x2="0" y2="-0.7" width="0.127" layer="48"/>
+<smd name="1" x="-2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="2" x="0" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="3" x="2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="4" x="0" y="3.15" dx="3.8" dy="2" layer="1"/>
+<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0.4" y="0.4" size="0.254" layer="48">direction of pcb</text>
+<text x="0.4" y="-0.05" size="0.254" layer="48">transportation for</text>
+<text x="0.4" y="-0.5" size="0.254" layer="48">wavesoldering</text>
+<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="SOT223" urn="urn:adsk.eagle:package:30370/1" type="box" library_version="3">
+<description>Small Outline Transistor 223
+PLASTIC PACKAGE CASE 318E-04
+Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
+<packageinstances>
+<packageinstance name="SOT223"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
+<library name="ShittyAddOn">
+<packages>
+<package name="2X3">
+<pad name="GND" x="-2.54" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="SCL" x="0" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="GP2" x="2.54" y="-1.27" drill="1" diameter="1.6764"/>
+<pad name="GP1" x="2.54" y="1.27" drill="1" diameter="1.6764"/>
+<pad name="SDA" x="0" y="1.27" drill="1" diameter="1.6764"/>
+<pad name="3V3" x="-2.54" y="1.27" drill="1" diameter="1.6764"/>
+<text x="-4.059665625" y="-2.578" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.329665625" y="-2.578" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="3.175" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="3.175" x2="1.27" y2="3.175" width="0.127" layer="22"/>
+<wire x1="1.27" y1="3.175" x2="1.27" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-1.27" y1="2.54" x2="-3.81" y2="2.54" width="0.127" layer="22"/>
+<wire x1="1.27" y1="2.54" x2="3.81" y2="2.54" width="0.127" layer="22"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="-3.81" y1="-2.54" x2="3.81" y2="-2.54" width="0.127" layer="22"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="2.54" width="0.127" layer="22"/>
 </package>
 </packages>
 </library>
@@ -406,28 +476,698 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J2" library="SamacSys_Parts" package="641737-1" value="641737-1" x="40.02" y="70.01" smashed="yes" rot="R180">
-<attribute name="DESCRIPTION" value="4w pcb mount R/A Pin Header" x="13.35" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="13.35" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="13.35" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="641737-1" x="13.35" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PART_NUMBER" value="571-6417371" x="13.35" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-6417371" x="13.35" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="40.595" y="65.042" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="VALUE" x="40.595" y="65.042" size="1.27" layer="27" rot="R180" align="center"/>
+<element name="J2" library="SamacSys_Parts" package="641737-1" value="641737-1" x="48.91" y="70.01" smashed="yes" rot="R180">
+<attribute name="DESCRIPTION" value="4w pcb mount R/A Pin Header" x="22.24" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="HEIGHT" value="mm" x="22.24" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" x="22.24" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="641737-1" x="22.24" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-6417371" x="22.24" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-6417371" x="22.24" y="72.55" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="49.485" y="65.042" size="1.27" layer="25" rot="R180" align="center"/>
+<attribute name="VALUE" x="49.485" y="65.042" size="1.27" layer="27" rot="R180" align="center"/>
+</element>
+<element name="IC1" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="LD117AS12TR" x="13.97" y="674.37" smashed="yes" rot="MR0">
+<attribute name="NAME" x="16.51" y="674.4208" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="16.51" y="673.0492" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="U$1" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.75" y="694.54" smashed="yes">
+<attribute name="NAME" x="22.690334375" y="691.962" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.079665625" y="691.962" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$2" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.15" y="694.55" smashed="yes">
+<attribute name="NAME" x="69.090334375" y="691.972" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.479665625" y="691.972" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$3" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.75" y="652.66" smashed="yes">
+<attribute name="NAME" x="22.690334375" y="650.082" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.079665625" y="650.082" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$4" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.2" y="652.57" smashed="yes">
+<attribute name="NAME" x="69.140334375" y="649.992" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.529665625" y="649.992" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$5" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.5" y="652.63" smashed="yes">
+<attribute name="NAME" x="115.440334375" y="650.052" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.829665625" y="650.052" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$6" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.5" y="694.59" smashed="yes">
+<attribute name="NAME" x="115.440334375" y="692.012" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.829665625" y="692.012" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$7" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.9" y="694.55" smashed="yes">
+<attribute name="NAME" x="161.840334375" y="691.972" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.229665625" y="691.972" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$8" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.85" y="652.66" smashed="yes">
+<attribute name="NAME" x="161.790334375" y="650.082" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.179665625" y="650.082" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$9" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.25" y="694.57" smashed="yes">
+<attribute name="NAME" x="208.190334375" y="691.992" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.579665625" y="691.992" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$10" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.24" y="652.61" smashed="yes">
+<attribute name="NAME" x="208.180334375" y="650.032" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.569665625" y="650.032" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="IC2" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="LD117AS12TR" x="13.97" y="590.55" smashed="yes" rot="MR0">
+<attribute name="NAME" x="16.51" y="590.6008" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="16.51" y="589.2292" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="U$11" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.79" y="610.72" smashed="yes">
+<attribute name="NAME" x="22.730334375" y="608.142" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.119665625" y="608.142" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$12" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.14" y="610.72" smashed="yes">
+<attribute name="NAME" x="69.080334375" y="608.142" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.469665625" y="608.142" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$13" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.54" y="610.72" smashed="yes">
+<attribute name="NAME" x="115.480334375" y="608.142" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.869665625" y="608.142" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$14" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.79" y="568.79" smashed="yes">
+<attribute name="NAME" x="22.730334375" y="566.212" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.119665625" y="566.212" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$15" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.49" y="568.79" smashed="yes">
+<attribute name="NAME" x="115.430334375" y="566.212" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.819665625" y="566.212" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$16" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.89" y="610.74" smashed="yes">
+<attribute name="NAME" x="161.830334375" y="608.162" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.219665625" y="608.162" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$17" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.89" y="568.81" smashed="yes">
+<attribute name="NAME" x="161.830334375" y="566.232" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.219665625" y="566.232" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$18" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.24" y="610.71" smashed="yes">
+<attribute name="NAME" x="208.180334375" y="608.132" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.569665625" y="608.132" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$19" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.19" y="568.81" smashed="yes">
+<attribute name="NAME" x="69.130334375" y="566.232" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.519665625" y="566.232" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$20" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.24" y="568.83" smashed="yes">
+<attribute name="NAME" x="208.180334375" y="566.252" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.569665625" y="566.252" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="IC3" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="LD117AS12TR" x="13.97" y="505.46" smashed="yes" rot="MR0">
+<attribute name="NAME" x="16.51" y="505.5108" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="16.51" y="504.1392" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="U$21" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.79" y="526.9" smashed="yes">
+<attribute name="NAME" x="22.730334375" y="524.322" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.119665625" y="524.322" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$22" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.79" y="484.95" smashed="yes">
+<attribute name="NAME" x="22.730334375" y="482.372" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.119665625" y="482.372" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$23" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.19" y="526.9" smashed="yes">
+<attribute name="NAME" x="69.130334375" y="524.322" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.519665625" y="524.322" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$24" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.14" y="484.97" smashed="yes">
+<attribute name="NAME" x="69.080334375" y="482.392" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.469665625" y="482.392" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$25" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.89" y="526.87" smashed="yes">
+<attribute name="NAME" x="161.830334375" y="524.292" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.219665625" y="524.292" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$26" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.49" y="526.87" smashed="yes">
+<attribute name="NAME" x="115.430334375" y="524.292" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.819665625" y="524.292" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$27" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.89" y="484.99" smashed="yes">
+<attribute name="NAME" x="161.830334375" y="482.412" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.219665625" y="482.412" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$28" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.24" y="484.94" smashed="yes">
+<attribute name="NAME" x="208.180334375" y="482.362" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.569665625" y="482.362" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$29" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.24" y="526.89" smashed="yes">
+<attribute name="NAME" x="208.180334375" y="524.312" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.569665625" y="524.312" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$30" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.49" y="484.96" smashed="yes">
+<attribute name="NAME" x="115.430334375" y="482.382" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.819665625" y="482.382" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="IC4" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="LD117AS12TR" x="13.57" y="423.48" smashed="yes" rot="MR0">
+<attribute name="NAME" x="16.11" y="423.5308" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="16.11" y="422.1592" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="U$31" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.14" y="401.13" smashed="yes">
+<attribute name="NAME" x="69.080334375" y="398.552" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.469665625" y="398.552" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$32" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.49" y="443.13" smashed="yes">
+<attribute name="NAME" x="115.430334375" y="440.552" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.819665625" y="440.552" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$33" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.84" y="443.08" smashed="yes">
+<attribute name="NAME" x="22.780334375" y="440.502" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.169665625" y="440.502" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$34" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.49" y="401.15" smashed="yes">
+<attribute name="NAME" x="115.430334375" y="398.572" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.819665625" y="398.572" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$35" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.84" y="401.15" smashed="yes">
+<attribute name="NAME" x="22.780334375" y="398.572" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.169665625" y="398.572" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$36" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.19" y="443.05" smashed="yes">
+<attribute name="NAME" x="69.130334375" y="440.472" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.519665625" y="440.472" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$37" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.24" y="443.02" smashed="yes">
+<attribute name="NAME" x="208.180334375" y="440.442" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.569665625" y="440.442" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$38" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.24" y="401.12" smashed="yes">
+<attribute name="NAME" x="208.180334375" y="398.542" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.569665625" y="398.542" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$39" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.84" y="401.12" smashed="yes">
+<attribute name="NAME" x="161.780334375" y="398.542" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.169665625" y="398.542" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$40" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.84" y="443.04" smashed="yes">
+<attribute name="NAME" x="161.780334375" y="440.462" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.169665625" y="440.462" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="IC5" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="LD117AS12TR" x="13.97" y="339.09" smashed="yes" rot="MR0">
+<attribute name="NAME" x="16.51" y="339.1408" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="16.51" y="337.7692" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="U$41" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.14" y="359.23" smashed="yes">
+<attribute name="NAME" x="69.080334375" y="356.652" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.469665625" y="356.652" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$42" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.19" y="317.28" smashed="yes">
+<attribute name="NAME" x="208.130334375" y="314.702" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.519665625" y="314.702" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$43" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.24" y="359.23" smashed="yes">
+<attribute name="NAME" x="208.180334375" y="356.652" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.569665625" y="356.652" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$44" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.79" y="317.3" smashed="yes">
+<attribute name="NAME" x="22.730334375" y="314.722" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.119665625" y="314.722" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$45" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.84" y="359.2" smashed="yes">
+<attribute name="NAME" x="22.780334375" y="356.622" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.169665625" y="356.622" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$46" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.49" y="317.25" smashed="yes">
+<attribute name="NAME" x="115.430334375" y="314.672" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.819665625" y="314.672" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$47" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.19" y="317.32" smashed="yes">
+<attribute name="NAME" x="69.130334375" y="314.742" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.519665625" y="314.742" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$48" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.49" y="359.22" smashed="yes">
+<attribute name="NAME" x="115.430334375" y="356.642" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.819665625" y="356.642" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$49" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.84" y="317.27" smashed="yes">
+<attribute name="NAME" x="161.780334375" y="314.692" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.169665625" y="314.692" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$50" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.89" y="359.19" smashed="yes">
+<attribute name="NAME" x="161.830334375" y="356.612" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.219665625" y="356.612" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="IC6" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="LD117AS12TR" x="13.97" y="255.27" smashed="yes" rot="MR0">
+<attribute name="NAME" x="16.51" y="255.3208" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="16.51" y="253.9492" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="U$51" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.19" y="275.35" smashed="yes">
+<attribute name="NAME" x="69.130334375" y="272.772" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.519665625" y="272.772" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$52" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.24" y="275.35" smashed="yes">
+<attribute name="NAME" x="208.180334375" y="272.772" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.569665625" y="272.772" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$53" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.79" y="275.4" smashed="yes">
+<attribute name="NAME" x="22.730334375" y="272.822" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.119665625" y="272.822" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$54" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.89" y="233.52" smashed="yes">
+<attribute name="NAME" x="161.830334375" y="230.942" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.219665625" y="230.942" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$55" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.54" y="275.37" smashed="yes">
+<attribute name="NAME" x="115.480334375" y="272.792" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.869665625" y="272.792" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$56" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.89" y="275.37" smashed="yes">
+<attribute name="NAME" x="161.830334375" y="272.792" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.219665625" y="272.792" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$57" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.14" y="233.44" smashed="yes">
+<attribute name="NAME" x="69.080334375" y="230.862" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.469665625" y="230.862" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$58" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.54" y="233.44" smashed="yes">
+<attribute name="NAME" x="115.480334375" y="230.862" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.869665625" y="230.862" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$59" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.24" y="233.49" smashed="yes">
+<attribute name="NAME" x="208.180334375" y="230.912" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.569665625" y="230.912" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$60" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.79" y="233.51" smashed="yes">
+<attribute name="NAME" x="22.730334375" y="230.932" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.119665625" y="230.932" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="IC7" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="LD117AS12TR" x="13.97" y="171.45" smashed="yes" rot="MR0">
+<attribute name="NAME" x="16.51" y="171.5008" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="16.51" y="170.1292" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="U$61" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.52" y="149.62" smashed="yes">
+<attribute name="NAME" x="115.460334375" y="147.042" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.849665625" y="147.042" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$62" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.57" y="191.57" smashed="yes">
+<attribute name="NAME" x="115.510334375" y="188.992" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.899665625" y="188.992" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$63" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.27" y="191.52" smashed="yes">
+<attribute name="NAME" x="208.210334375" y="188.942" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.599665625" y="188.942" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$64" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.17" y="191.54" smashed="yes">
+<attribute name="NAME" x="69.110334375" y="188.962" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.499665625" y="188.962" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$65" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.17" y="149.64" smashed="yes">
+<attribute name="NAME" x="69.110334375" y="147.062" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.499665625" y="147.062" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$66" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.22" y="149.64" smashed="yes">
+<attribute name="NAME" x="208.160334375" y="147.062" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.549665625" y="147.062" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$67" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.82" y="191.56" smashed="yes">
+<attribute name="NAME" x="161.760334375" y="188.982" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.149665625" y="188.982" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$68" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.77" y="149.66" smashed="yes">
+<attribute name="NAME" x="22.710334375" y="147.082" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.099665625" y="147.082" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$69" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.77" y="191.56" smashed="yes">
+<attribute name="NAME" x="22.710334375" y="188.982" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.099665625" y="188.982" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$70" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.87" y="149.68" smashed="yes">
+<attribute name="NAME" x="161.810334375" y="147.102" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.199665625" y="147.102" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="IC8" library="v-reg" library_urn="urn:adsk.eagle:library:409" package="SOT223" package3d_urn="urn:adsk.eagle:package:30370/1" value="LD117AS12TR" x="13.97" y="66.04" smashed="yes" rot="MR0">
+<attribute name="NAME" x="16.51" y="66.0908" size="1.27" layer="26" rot="MR0"/>
+<attribute name="VALUE" x="16.51" y="64.7192" size="1.27" layer="28" rot="MR0"/>
+</element>
+<element name="U$71" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.25" y="23.85" smashed="yes">
+<attribute name="NAME" x="208.190334375" y="21.272" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.579665625" y="21.272" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$72" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.25" y="107.7" smashed="yes">
+<attribute name="NAME" x="208.190334375" y="105.122" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.579665625" y="105.122" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$73" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.5" y="107.7" smashed="yes">
+<attribute name="NAME" x="115.440334375" y="105.122" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.829665625" y="105.122" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$74" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="212.25" y="65.77" smashed="yes">
+<attribute name="NAME" x="208.190334375" y="63.192" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="217.579665625" y="63.192" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$75" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.9" y="107.72" smashed="yes">
+<attribute name="NAME" x="161.840334375" y="105.142" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.229665625" y="105.142" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$76" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.2" y="65.77" smashed="yes">
+<attribute name="NAME" x="69.140334375" y="63.192" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.529665625" y="63.192" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$77" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.9" y="65.79" smashed="yes">
+<attribute name="NAME" x="161.840334375" y="63.212" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.229665625" y="63.212" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$78" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="165.85" y="23.89" smashed="yes">
+<attribute name="NAME" x="161.790334375" y="21.312" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="171.179665625" y="21.312" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$79" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.15" y="23.89" smashed="yes">
+<attribute name="NAME" x="69.090334375" y="21.312" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.479665625" y="21.312" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$80" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.5" y="65.81" smashed="yes">
+<attribute name="NAME" x="115.440334375" y="63.232" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.829665625" y="63.232" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$81" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="119.5" y="23.88" smashed="yes">
+<attribute name="NAME" x="115.440334375" y="21.302" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="124.829665625" y="21.302" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$82" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.75" y="65.83" smashed="yes">
+<attribute name="NAME" x="22.690334375" y="63.252" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.079665625" y="63.252" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$83" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="73.15" y="107.7" smashed="yes">
+<attribute name="NAME" x="69.090334375" y="105.122" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="78.479665625" y="105.122" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$84" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.8" y="23.9" smashed="yes">
+<attribute name="NAME" x="22.740334375" y="21.322" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.129665625" y="21.322" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="U$85" library="ShittyAddOn" package="2X3" value="SAO1.69BIS" x="26.8" y="107.72" smashed="yes">
+<attribute name="NAME" x="22.740334375" y="105.142" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="32.129665625" y="105.142" size="1.27" layer="27" rot="R90"/>
 </element>
 </elements>
 <signals>
 <signal name="GND">
 <contactref element="J2" pad="3"/>
 <contactref element="J2" pad="2"/>
-<wire x1="37.48" y1="70.01" x2="42.56" y2="70.01" width="0" layer="19" extent="1-1"/>
+<contactref element="IC1" pad="1"/>
+<contactref element="U$10" pad="GND"/>
+<contactref element="U$6" pad="GND"/>
+<contactref element="U$7" pad="GND"/>
+<contactref element="U$8" pad="GND"/>
+<contactref element="U$9" pad="GND"/>
+<contactref element="U$1" pad="GND"/>
+<contactref element="U$5" pad="GND"/>
+<contactref element="U$4" pad="GND"/>
+<contactref element="U$3" pad="GND"/>
+<contactref element="U$2" pad="GND"/>
+<contactref element="IC2" pad="1"/>
+<contactref element="U$20" pad="GND"/>
+<contactref element="U$16" pad="GND"/>
+<contactref element="U$17" pad="GND"/>
+<contactref element="U$18" pad="GND"/>
+<contactref element="U$19" pad="GND"/>
+<contactref element="U$11" pad="GND"/>
+<contactref element="U$15" pad="GND"/>
+<contactref element="U$14" pad="GND"/>
+<contactref element="U$13" pad="GND"/>
+<contactref element="U$12" pad="GND"/>
+<wire x1="16.27" y1="587.4" x2="16.27" y2="567.52" width="1.27" layer="16"/>
+<wire x1="16.27" y1="567.52" x2="24.25" y2="567.52" width="1.27" layer="16"/>
+<wire x1="16.27" y1="671.22" x2="16.27" y2="651.39" width="1.27" layer="16"/>
+<wire x1="16.27" y1="651.39" x2="24.21" y2="651.39" width="1.27" layer="16"/>
+<contactref element="IC3" pad="1"/>
+<contactref element="U$30" pad="GND"/>
+<contactref element="U$26" pad="GND"/>
+<contactref element="U$27" pad="GND"/>
+<contactref element="U$28" pad="GND"/>
+<contactref element="U$29" pad="GND"/>
+<contactref element="U$21" pad="GND"/>
+<contactref element="U$25" pad="GND"/>
+<contactref element="U$24" pad="GND"/>
+<contactref element="U$23" pad="GND"/>
+<contactref element="U$22" pad="GND"/>
+<wire x1="16.27" y1="502.31" x2="16.27" y2="483.68" width="1.27" layer="16"/>
+<wire x1="16.27" y1="483.68" x2="24.25" y2="483.68" width="1.27" layer="16"/>
+<contactref element="IC4" pad="1"/>
+<contactref element="U$40" pad="GND"/>
+<contactref element="U$36" pad="GND"/>
+<contactref element="U$37" pad="GND"/>
+<contactref element="U$38" pad="GND"/>
+<contactref element="U$39" pad="GND"/>
+<contactref element="U$31" pad="GND"/>
+<contactref element="U$35" pad="GND"/>
+<contactref element="U$34" pad="GND"/>
+<contactref element="U$33" pad="GND"/>
+<contactref element="U$32" pad="GND"/>
+<wire x1="15.87" y1="420.33" x2="15.87" y2="399.88" width="1.27" layer="16"/>
+<wire x1="15.87" y1="399.88" x2="24.3" y2="399.88" width="1.27" layer="16"/>
+<contactref element="IC5" pad="1"/>
+<contactref element="U$50" pad="GND"/>
+<contactref element="U$46" pad="GND"/>
+<contactref element="U$47" pad="GND"/>
+<contactref element="U$48" pad="GND"/>
+<contactref element="U$49" pad="GND"/>
+<contactref element="U$41" pad="GND"/>
+<contactref element="U$45" pad="GND"/>
+<contactref element="U$44" pad="GND"/>
+<contactref element="U$43" pad="GND"/>
+<contactref element="U$42" pad="GND"/>
+<contactref element="IC6" pad="1"/>
+<contactref element="U$60" pad="GND"/>
+<contactref element="U$56" pad="GND"/>
+<contactref element="U$57" pad="GND"/>
+<contactref element="U$58" pad="GND"/>
+<contactref element="U$59" pad="GND"/>
+<contactref element="U$51" pad="GND"/>
+<contactref element="U$55" pad="GND"/>
+<contactref element="U$54" pad="GND"/>
+<contactref element="U$53" pad="GND"/>
+<contactref element="U$52" pad="GND"/>
+<wire x1="16.27" y1="252.12" x2="16.27" y2="232.24" width="1.27" layer="16"/>
+<wire x1="16.27" y1="232.24" x2="24.25" y2="232.24" width="1.27" layer="16"/>
+<contactref element="IC7" pad="1"/>
+<contactref element="U$70" pad="GND"/>
+<contactref element="U$66" pad="GND"/>
+<contactref element="U$67" pad="GND"/>
+<contactref element="U$68" pad="GND"/>
+<contactref element="U$69" pad="GND"/>
+<contactref element="U$61" pad="GND"/>
+<contactref element="U$65" pad="GND"/>
+<contactref element="U$64" pad="GND"/>
+<contactref element="U$63" pad="GND"/>
+<contactref element="U$62" pad="GND"/>
+<contactref element="IC8" pad="1"/>
+<contactref element="U$80" pad="GND"/>
+<contactref element="U$76" pad="GND"/>
+<contactref element="U$77" pad="GND"/>
+<contactref element="U$78" pad="GND"/>
+<contactref element="U$79" pad="GND"/>
+<contactref element="U$71" pad="GND"/>
+<contactref element="U$75" pad="GND"/>
+<contactref element="U$74" pad="GND"/>
+<contactref element="U$73" pad="GND"/>
+<contactref element="U$72" pad="GND"/>
+<contactref element="U$81" pad="GND"/>
+<contactref element="U$82" pad="GND"/>
+<contactref element="U$83" pad="GND"/>
+<contactref element="U$84" pad="GND"/>
+<contactref element="U$85" pad="GND"/>
+<wire x1="16.27" y1="62.89" x2="24.21" y2="62.89" width="1.27" layer="16"/>
+<wire x1="24.21" y1="62.89" x2="24.21" y2="64.56" width="1.27" layer="16"/>
+<polygon width="1.27" layer="1">
+<vertex x="8.89" y="12.7"/>
+<vertex x="229.87" y="12.7"/>
+<vertex x="229.87" y="707.39"/>
+<vertex x="8.89" y="707.39"/>
+</polygon>
+<wire x1="16.27" y1="335.94" x2="16.27" y2="316.03" width="1.27" layer="16"/>
+<wire x1="16.27" y1="316.03" x2="24.25" y2="316.03" width="1.27" layer="16"/>
+<wire x1="16.27" y1="168.3" x2="16.27" y2="148.39" width="1.27" layer="16"/>
+<wire x1="16.27" y1="148.39" x2="24.23" y2="148.39" width="1.27" layer="16"/>
 </signal>
 <signal name="5V">
 <contactref element="J2" pad="4"/>
+<contactref element="IC1" pad="3"/>
+<contactref element="IC2" pad="3"/>
+<contactref element="IC3" pad="3"/>
+<contactref element="IC4" pad="3"/>
+<contactref element="IC5" pad="3"/>
+<contactref element="IC6" pad="3"/>
+<contactref element="IC7" pad="3"/>
+<contactref element="IC8" pad="3"/>
+<wire x1="56.53" y1="70.01" x2="50.57" y2="64.05" width="1.27" layer="16"/>
+<wire x1="41.9" y1="64.05" x2="36.25" y2="58.4" width="1.27" layer="16"/>
+<wire x1="36.25" y1="58.4" x2="10.35" y2="58.4" width="1.27" layer="16"/>
+<wire x1="10.35" y1="58.4" x2="9.3" y2="59.45" width="1.27" layer="16"/>
+<wire x1="9.3" y1="59.45" x2="9.3" y2="63" width="1.27" layer="16"/>
+<wire x1="9.3" y1="63" x2="9.3" y2="252.2" width="1.27" layer="16"/>
+<wire x1="9.3" y1="252.2" x2="9.3" y2="336" width="1.27" layer="16"/>
+<wire x1="9.3" y1="336" x2="9.3" y2="420.3" width="1.27" layer="16"/>
+<wire x1="9.3" y1="420.3" x2="9.3" y2="502.45" width="1.27" layer="16"/>
+<wire x1="9.3" y1="502.45" x2="9.3" y2="587.25" width="1.27" layer="16"/>
+<wire x1="9.3" y1="587.25" x2="9.3" y2="668.85" width="1.27" layer="16"/>
+<wire x1="9.3" y1="668.85" x2="11.67" y2="671.22" width="1.27" layer="16"/>
+<wire x1="50.57" y1="64.05" x2="41.9" y2="64.05" width="1.27" layer="16"/>
+<wire x1="11.67" y1="587.4" x2="11.52" y2="587.25" width="1.27" layer="16"/>
+<wire x1="11.52" y1="587.25" x2="9.3" y2="587.25" width="1.27" layer="16"/>
+<wire x1="11.67" y1="502.31" x2="9.44" y2="502.31" width="1.27" layer="16"/>
+<wire x1="9.44" y1="502.31" x2="9.3" y2="502.45" width="1.27" layer="16"/>
+<wire x1="11.27" y1="420.33" x2="9.33" y2="420.33" width="1.27" layer="16"/>
+<wire x1="9.33" y1="420.33" x2="9.3" y2="420.3" width="1.27" layer="16"/>
+<wire x1="11.67" y1="335.94" x2="9.36" y2="335.94" width="1.27" layer="16"/>
+<wire x1="9.36" y1="335.94" x2="9.3" y2="336" width="1.27" layer="16"/>
+<wire x1="11.67" y1="252.12" x2="9.3" y2="252.12" width="1.27" layer="16"/>
+<wire x1="9.3" y1="252.12" x2="9.3" y2="252.2" width="1.27" layer="16"/>
+<wire x1="11.67" y1="62.89" x2="9.3" y2="62.89" width="1.27" layer="16"/>
+<wire x1="9.3" y1="62.89" x2="9.3" y2="63" width="1.27" layer="16"/>
+<wire x1="11.67" y1="252.12" x2="11.67" y2="168.3" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="12V">
 <contactref element="J2" pad="1"/>
+</signal>
+<signal name="3V3">
+<contactref element="U$1" pad="3V3"/>
+<contactref element="U$2" pad="3V3"/>
+<contactref element="U$3" pad="3V3"/>
+<contactref element="U$4" pad="3V3"/>
+<contactref element="U$5" pad="3V3"/>
+<contactref element="U$6" pad="3V3"/>
+<contactref element="U$7" pad="3V3"/>
+<contactref element="U$8" pad="3V3"/>
+<contactref element="U$9" pad="3V3"/>
+<contactref element="U$10" pad="3V3"/>
+<polygon width="0.304" layer="16">
+<vertex x="8.89" y="707.39"/>
+<vertex x="229.87" y="707.39"/>
+<vertex x="229.87" y="642.62"/>
+<vertex x="8.89" y="642.62"/>
+</polygon>
+<contactref element="IC1" pad="4"/>
+<contactref element="U$11" pad="3V3"/>
+<contactref element="U$12" pad="3V3"/>
+<contactref element="U$13" pad="3V3"/>
+<contactref element="U$14" pad="3V3"/>
+<contactref element="U$15" pad="3V3"/>
+<contactref element="U$16" pad="3V3"/>
+<contactref element="U$17" pad="3V3"/>
+<contactref element="U$18" pad="3V3"/>
+<contactref element="U$19" pad="3V3"/>
+<contactref element="U$20" pad="3V3"/>
+<contactref element="IC2" pad="4"/>
+<polygon width="0.304" layer="16">
+<vertex x="8.89" y="641.35"/>
+<vertex x="229.87" y="641.35"/>
+<vertex x="229.87" y="546.1"/>
+<vertex x="8.89" y="546.1"/>
+</polygon>
+<contactref element="U$21" pad="3V3"/>
+<contactref element="U$22" pad="3V3"/>
+<contactref element="U$23" pad="3V3"/>
+<contactref element="U$24" pad="3V3"/>
+<contactref element="U$25" pad="3V3"/>
+<contactref element="U$26" pad="3V3"/>
+<contactref element="U$27" pad="3V3"/>
+<contactref element="U$28" pad="3V3"/>
+<contactref element="U$29" pad="3V3"/>
+<contactref element="U$30" pad="3V3"/>
+<contactref element="IC3" pad="4"/>
+<polygon width="0.4064" layer="16">
+<vertex x="8.89" y="544.83"/>
+<vertex x="229.87" y="544.83"/>
+<vertex x="229.87" y="457.2"/>
+<vertex x="8.89" y="457.2"/>
+</polygon>
+<contactref element="U$31" pad="3V3"/>
+<contactref element="U$32" pad="3V3"/>
+<contactref element="U$33" pad="3V3"/>
+<contactref element="U$34" pad="3V3"/>
+<contactref element="U$35" pad="3V3"/>
+<contactref element="U$36" pad="3V3"/>
+<contactref element="U$37" pad="3V3"/>
+<contactref element="U$38" pad="3V3"/>
+<contactref element="U$39" pad="3V3"/>
+<contactref element="U$40" pad="3V3"/>
+<contactref element="IC4" pad="4"/>
+<polygon width="1.27" layer="16">
+<vertex x="8.89" y="454.66"/>
+<vertex x="229.87" y="454.66"/>
+<vertex x="229.87" y="378.46"/>
+<vertex x="8.89" y="378.46"/>
+</polygon>
+<contactref element="U$41" pad="3V3"/>
+<contactref element="U$42" pad="3V3"/>
+<contactref element="U$43" pad="3V3"/>
+<contactref element="U$44" pad="3V3"/>
+<contactref element="U$45" pad="3V3"/>
+<contactref element="U$46" pad="3V3"/>
+<contactref element="U$47" pad="3V3"/>
+<contactref element="U$48" pad="3V3"/>
+<contactref element="U$49" pad="3V3"/>
+<contactref element="U$50" pad="3V3"/>
+<contactref element="IC5" pad="4"/>
+<polygon width="1.27" layer="16">
+<vertex x="8.89" y="375.92"/>
+<vertex x="229.87" y="375.92"/>
+<vertex x="229.87" y="294.64"/>
+<vertex x="8.89" y="294.64"/>
+</polygon>
+<contactref element="U$51" pad="3V3"/>
+<contactref element="U$52" pad="3V3"/>
+<contactref element="U$53" pad="3V3"/>
+<contactref element="U$54" pad="3V3"/>
+<contactref element="U$55" pad="3V3"/>
+<contactref element="U$56" pad="3V3"/>
+<contactref element="U$57" pad="3V3"/>
+<contactref element="U$58" pad="3V3"/>
+<contactref element="U$59" pad="3V3"/>
+<contactref element="U$60" pad="3V3"/>
+<contactref element="IC6" pad="4"/>
+<polygon width="1.27" layer="16">
+<vertex x="8.89" y="292.1"/>
+<vertex x="229.87" y="292.1"/>
+<vertex x="229.87" y="210.82"/>
+<vertex x="8.89" y="210.82"/>
+</polygon>
+<contactref element="U$61" pad="3V3"/>
+<contactref element="U$62" pad="3V3"/>
+<contactref element="U$63" pad="3V3"/>
+<contactref element="U$64" pad="3V3"/>
+<contactref element="U$65" pad="3V3"/>
+<contactref element="U$66" pad="3V3"/>
+<contactref element="U$67" pad="3V3"/>
+<contactref element="U$68" pad="3V3"/>
+<contactref element="U$69" pad="3V3"/>
+<contactref element="U$70" pad="3V3"/>
+<contactref element="IC7" pad="4"/>
+<polygon width="1.27" layer="16">
+<vertex x="8.89" y="208.28"/>
+<vertex x="229.87" y="208.28"/>
+<vertex x="229.87" y="128.27"/>
+<vertex x="8.89" y="128.27"/>
+</polygon>
+<contactref element="U$71" pad="3V3"/>
+<contactref element="U$72" pad="3V3"/>
+<contactref element="U$73" pad="3V3"/>
+<contactref element="U$74" pad="3V3"/>
+<contactref element="U$75" pad="3V3"/>
+<contactref element="U$76" pad="3V3"/>
+<contactref element="U$77" pad="3V3"/>
+<contactref element="U$78" pad="3V3"/>
+<contactref element="U$79" pad="3V3"/>
+<contactref element="U$80" pad="3V3"/>
+<contactref element="IC8" pad="4"/>
+<contactref element="U$81" pad="3V3"/>
+<contactref element="U$82" pad="3V3"/>
+<contactref element="U$83" pad="3V3"/>
+<contactref element="U$84" pad="3V3"/>
+<contactref element="U$85" pad="3V3"/>
+<polygon width="1.27" layer="16">
+<vertex x="8.89" y="125.73"/>
+<vertex x="229.87" y="125.73"/>
+<vertex x="229.87" y="12.7"/>
+<vertex x="8.89" y="12.7"/>
+</polygon>
+<wire x1="116.98" y1="150.89" x2="116.96" y2="108.97" width="0" layer="19" extent="1-1"/>
+<wire x1="117" y1="234.71" x2="117.03" y2="192.84" width="0" layer="19" extent="1-1"/>
+<wire x1="116.95" y1="318.52" x2="117" y2="276.64" width="0" layer="19" extent="1-1"/>
+<wire x1="209.7" y1="402.39" x2="209.7" y2="360.5" width="0" layer="19" extent="1-1"/>
+<wire x1="116.95" y1="486.23" x2="116.95" y2="444.4" width="0" layer="19" extent="1-1"/>
+<wire x1="24.25" y1="570.06" x2="24.25" y2="528.17" width="0" layer="19" extent="1-1"/>
+<wire x1="70.66" y1="653.84" x2="70.6" y2="611.99" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
@@ -439,4 +1179,21 @@ design rules under a new name.</description>
 </mfgpreviewcolors>
 </board>
 </drawing>
+<compatibility>
+<note version="8.2" severity="warning">
+Since Version 8.2, EAGLE supports online libraries. The ids
+of those online libraries will not be understood (or retained)
+with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
