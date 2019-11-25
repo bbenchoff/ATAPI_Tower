@@ -1,0 +1,28 @@
+
+Copyright Innostor Technology Corporation
+All Rights Reserved.
+Date : 2019/09/21 11:02:40
+
+Innostor Product Name : IS611
+Profile : IS611.ini
+FW path : C:\Users\bench\Desktop\New folder\611ExFW_09_37.BIN
+ISO path : 
+Log File : 20190921.log
+Error Code : 0
+Sysyem Error Code : 0
+
+------------ Update Chip ------------
+Update Setting, Firmware.
+      	SN              	VID	PID	Vendor   	Product 	Reversion	Setting	Firmware
+Require	20190921	1F75	0611	Innostor	Ext. HDD     	0.00       	PASS	0937	
+Check	20190921	1F75	0611	Innostor	Ext. HDD     	0.00       	PASS	0937	
+************ Update Chip ************
+************ Test Result : PASS ************
+
+------------ Verify Chip Information ------------
+      	SN              	VID	PID	Vendor   	Product 	Reversion	Setting	FW
+Verify	20190921	1F75	0611	Innostor	Ext. HDD     	0.00       	PASS	0937	
+InChip	20190921	1F75	0611	----	----     	0.00     	PASS	0937	
+************ Verify Chip Information ************
+************ Test Result : PASS ************
+
