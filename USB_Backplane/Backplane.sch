@@ -1551,6 +1551,32 @@ Source: http://focus.ti.com/lit/ds/symlink/tusb2046b.pdf</description>
 <wire x1="-3.15" y1="-3.15" x2="-3.15" y2="3.15" width="0.2" layer="21"/>
 <circle x="-4.725" y="3.5" radius="0.125" width="0.25" layer="25"/>
 </package>
+<package name="641737-1">
+<description>&lt;b&gt;641737-1&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="7.62" y="0" drill="1.6" diameter="2.4"/>
+<pad name="2" x="2.54" y="0" drill="1.6" diameter="2.4"/>
+<pad name="3" x="-2.54" y="0" drill="1.6" diameter="2.4"/>
+<pad name="4" x="-7.62" y="0" drill="1.6" diameter="2.4"/>
+<hole x="-10.16" y="2.54" drill="2.54"/>
+<hole x="-5.08" y="10.16" drill="4"/>
+<hole x="5.08" y="10.16" drill="4"/>
+<hole x="10.16" y="2.54" drill="2.54"/>
+<text x="-0.575" y="4.968" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.575" y="4.968" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-12.7" y1="12" x2="12.7" y2="12" width="0.2" layer="51"/>
+<wire x1="12.7" y1="12" x2="12.7" y2="-1" width="0.2" layer="51"/>
+<wire x1="12.7" y1="-1" x2="-12.7" y2="-1" width="0.2" layer="51"/>
+<wire x1="-12.7" y1="-1" x2="-12.7" y2="12" width="0.2" layer="51"/>
+<wire x1="-12.7" y1="12" x2="-12.7" y2="-1" width="0.2" layer="21"/>
+<wire x1="12.7" y1="12" x2="12.7" y2="-1" width="0.2" layer="21"/>
+<wire x1="12.7" y1="12" x2="6.364" y2="12" width="0.2" layer="21"/>
+<wire x1="-12.7" y1="12" x2="-6.364" y2="12" width="0.2" layer="21"/>
+<wire x1="-3.8" y1="12" x2="3.8" y2="12" width="0.2" layer="21"/>
+<wire x1="-12.7" y1="-1" x2="-8.623" y2="-1" width="0.2" layer="21"/>
+<wire x1="12.7" y1="-1" x2="8.623" y2="-1" width="0.2" layer="21"/>
+<circle x="7.523" y="-1.984" radius="0.07178125" width="0.2" layer="25"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TUSB2077APTR">
@@ -1608,6 +1634,18 @@ Source: http://focus.ti.com/lit/ds/symlink/tusb2046b.pdf</description>
 <pin name="DP7" x="30.48" y="25.4" length="middle" rot="R270"/>
 <pin name="DM7" x="33.02" y="25.4" length="middle" rot="R270"/>
 <pin name="!OVRCUR7" x="35.56" y="25.4" length="middle" rot="R270"/>
+</symbol>
+<symbol name="641737-1">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="3" x="0" y="-2.54" length="middle"/>
+<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1682,6 +1720,370 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/TUSB2077A"&gt; Datasheet &lt;/a&gt
 </device>
 </devices>
 </deviceset>
+<deviceset name="641737-1" prefix="J">
+<description>&lt;b&gt;4w pcb mount R/A Pin Header&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/641737-1.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="641737-1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="641737-1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="4w pcb mount R/A Pin Header" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="TE Connectivity" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="641737-1" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="571-6417371" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=571-6417371" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="supply1" urn="urn:adsk.eagle:library:371">
+<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
+ GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
+ Please keep in mind, that these devices are necessary for the
+ automatic wiring of the supply signals.&lt;p&gt;
+ The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
+ In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
+ &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="SparkFun-PowerSymbols" urn="urn:adsk.eagle:library:530">
+<description>&lt;h3&gt;SparkFun Power Symbols&lt;/h3&gt;
+This library contains power, ground, and voltage-supply symbols.
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="5V" urn="urn:adsk.eagle:symbol:39412/1" library_version="1">
+<description>&lt;h3&gt;5V Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<pin name="5V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="5V" urn="urn:adsk.eagle:component:39433/1" prefix="SUPPLY" library_version="1">
+<description>&lt;h3&gt;5V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 5V source.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="v-reg" urn="urn:adsk.eagle:library:409">
+<description>&lt;b&gt;Voltage Regulators&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="DPACK" urn="urn:adsk.eagle:footprint:30314/1" library_version="3">
+<description>&lt;b&gt;DPAK&lt;/b&gt;&lt;p&gt;
+PLASTIC PACKAGE CASE 369C-01&lt;br&gt;
+Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
+<wire x1="3.2766" y1="3.8354" x2="3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-2.159" x2="-3.277" y2="-2.159" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-2.159" x2="-3.2766" y2="3.8354" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="3.835" x2="3.2774" y2="3.8346" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="3.937" x2="-2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="-2.5654" y1="4.6482" x2="-2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="-2.1082" y1="5.1054" x2="2.1082" y2="5.1054" width="0.2032" layer="51"/>
+<wire x1="2.1082" y1="5.1054" x2="2.5654" y2="4.6482" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="4.6482" x2="2.5654" y2="3.937" width="0.2032" layer="51"/>
+<wire x1="2.5654" y1="3.937" x2="-2.5654" y2="3.937" width="0.2032" layer="51"/>
+<smd name="4" x="0" y="2.38" dx="5.8" dy="6.2" layer="1"/>
+<smd name="1" x="-2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
+<smd name="3" x="2.28" y="-4.8" dx="1.6" dy="3" layer="1"/>
+<text x="-3.81" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="5.08" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<rectangle x1="-2.7178" y1="-5.1562" x2="-1.8542" y2="-2.2606" layer="51"/>
+<rectangle x1="1.8542" y1="-5.1562" x2="2.7178" y2="-2.2606" layer="51"/>
+<rectangle x1="-0.4318" y1="-3.0226" x2="0.4318" y2="-2.2606" layer="21"/>
+<polygon width="0.1998" layer="51">
+<vertex x="-2.5654" y="3.937"/>
+<vertex x="-2.5654" y="4.6482"/>
+<vertex x="-2.1082" y="5.1054"/>
+<vertex x="2.1082" y="5.1054"/>
+<vertex x="2.5654" y="4.6482"/>
+<vertex x="2.5654" y="3.937"/>
+</polygon>
+</package>
+<package name="TO220L1" urn="urn:adsk.eagle:footprint:30309/1" library_version="3">
+<description>&lt;b&gt;VOLTAGE REGULATOR&lt;/b&gt;</description>
+<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.1524" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.1524" layer="21"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="42"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
+<pad name="1" x="-2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-3.81" drill="1.016" shape="long" rot="R90"/>
+<text x="-3.81" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.445" y="7.874" size="0.9906" layer="21" ratio="10">A15,2mm</text>
+<text x="-3.048" y="0" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.508" y="0" size="1.27" layer="51" ratio="10">2</text>
+<text x="2.032" y="0" size="1.27" layer="51" ratio="10">3</text>
+<rectangle x1="1.905" y1="-2.159" x2="3.175" y2="-1.27" layer="21"/>
+<rectangle x1="1.905" y1="-3.81" x2="3.175" y2="-2.159" layer="51"/>
+<rectangle x1="-0.635" y1="-2.159" x2="0.635" y2="-1.27" layer="21"/>
+<rectangle x1="-3.175" y1="-2.159" x2="-1.905" y2="-1.27" layer="21"/>
+<rectangle x1="-0.635" y1="-3.81" x2="0.635" y2="-2.159" layer="51"/>
+<rectangle x1="-3.175" y1="-3.81" x2="-1.905" y2="-2.159" layer="51"/>
+<hole x="0" y="11.176" drill="3.302"/>
+</package>
+<package name="SOT223" urn="urn:adsk.eagle:footprint:30315/1" library_version="3">
+<description>&lt;b&gt;Small Outline Transistor 223&lt;/b&gt;&lt;p&gt;
+PLASTIC PACKAGE CASE 318E-04&lt;br&gt;
+Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
+<wire x1="3.277" y1="1.778" x2="3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="3.277" y1="-1.778" x2="-3.277" y2="-1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="-1.778" x2="-3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="-3.277" y1="1.778" x2="3.277" y2="1.778" width="0.2032" layer="21"/>
+<wire x1="0" y1="-0.7" x2="0" y2="0.6" width="0.127" layer="48"/>
+<wire x1="0" y1="0.6" x2="-0.2" y2="0.2" width="0.127" layer="48"/>
+<wire x1="-0.2" y1="0.2" x2="0.2" y2="0.2" width="0.127" layer="48"/>
+<wire x1="0.2" y1="0.2" x2="0" y2="0.6" width="0.127" layer="48"/>
+<wire x1="0" y1="-0.7" x2="0.2" y2="-0.3" width="0.127" layer="48"/>
+<wire x1="0.2" y1="-0.3" x2="-0.2" y2="-0.3" width="0.127" layer="48"/>
+<wire x1="-0.2" y1="-0.3" x2="0" y2="-0.7" width="0.127" layer="48"/>
+<smd name="1" x="-2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="2" x="0" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="3" x="2.3" y="-3.15" dx="1.5" dy="2" layer="1"/>
+<smd name="4" x="0" y="3.15" dx="3.8" dy="2" layer="1"/>
+<text x="-2.54" y="0.0508" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="-1.3208" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0.4" y="0.4" size="0.254" layer="48">direction of pcb</text>
+<text x="0.4" y="-0.05" size="0.254" layer="48">transportation for</text>
+<text x="0.4" y="-0.5" size="0.254" layer="48">wavesoldering</text>
+<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="1.1303" x2="0.9271" y2="4.3307" layer="51" rot="R270"/>
+<rectangle x1="-0.9271" y1="-3.1623" x2="0.9271" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="-3.2385" y1="-3.1623" x2="-1.3843" y2="-2.2987" layer="51" rot="R270"/>
+<rectangle x1="1.3843" y1="-3.1623" x2="3.2385" y2="-2.2987" layer="51" rot="R270"/>
+</package>
+<package name="D2PACK" urn="urn:adsk.eagle:footprint:29392/1" library_version="3">
+<description>&lt;b&gt;D2PACK&lt;/b&gt;&lt;p&gt;
+INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
+<wire x1="-5.1308" y1="-4.0894" x2="5.1308" y2="-4.0894" width="0.254" layer="21"/>
+<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
+<wire x1="5.1308" y1="4.445" x2="3.1242" y2="5.8166" width="0.254" layer="51"/>
+<wire x1="3.1242" y1="5.8166" x2="-3.3782" y2="5.8166" width="0.254" layer="51"/>
+<wire x1="-3.3782" y1="5.8166" x2="-5.1308" y2="4.699" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="4.699" x2="-5.1308" y2="4.445" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="4.445" x2="-5.1308" y2="-4.0894" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="4.445" x2="5.1308" y2="4.445" width="0.254" layer="51"/>
+<wire x1="-5.1308" y1="-4.0894" x2="-5.1308" y2="-2.3114" width="0.254" layer="21"/>
+<wire x1="5.1308" y1="-4.0894" x2="5.1308" y2="-2.3114" width="0.254" layer="21"/>
+<smd name="1" x="-2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
+<smd name="3" x="2.54" y="-8.89" dx="2.0828" dy="3.81" layer="1"/>
+<smd name="2" x="0" y="2.54" dx="11.43" dy="8.89" layer="1"/>
+<text x="-5.588" y="7.239" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.429" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-3.0988" y1="-9.525" x2="-1.9812" y2="-8.1026" layer="51"/>
+<rectangle x1="-3.2512" y1="-8.1534" x2="-1.8288" y2="-6.731" layer="51"/>
+<rectangle x1="-3.2512" y1="-6.731" x2="-1.8288" y2="-4.2418" layer="21"/>
+<rectangle x1="1.9812" y1="-9.525" x2="3.0988" y2="-8.1026" layer="51"/>
+<rectangle x1="1.8288" y1="-8.1534" x2="3.2512" y2="-6.731" layer="51"/>
+<rectangle x1="1.8288" y1="-6.731" x2="3.2512" y2="-4.2418" layer="21"/>
+<rectangle x1="-0.7112" y1="-6.731" x2="0.7112" y2="-4.2418" layer="21"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="DPACK" urn="urn:adsk.eagle:package:30369/1" type="box" library_version="3">
+<description>DPAK
+PLASTIC PACKAGE CASE 369C-01
+Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
+<packageinstances>
+<packageinstance name="DPACK"/>
+</packageinstances>
+</package3d>
+<package3d name="TO220L1" urn="urn:adsk.eagle:package:30365/1" type="box" library_version="3">
+<description>VOLTAGE REGULATOR</description>
+<packageinstances>
+<packageinstance name="TO220L1"/>
+</packageinstances>
+</package3d>
+<package3d name="SOT223" urn="urn:adsk.eagle:package:30370/1" type="box" library_version="3">
+<description>Small Outline Transistor 223
+PLASTIC PACKAGE CASE 318E-04
+Source: http://www.onsemi.co.jp .. LM137M-D.PDF</description>
+<packageinstances>
+<packageinstance name="SOT223"/>
+</packageinstances>
+</package3d>
+<package3d name="D2PACK" urn="urn:adsk.eagle:package:29497/2" type="model" library_version="3">
+<description>D2PACK
+INTERNATIONAL RECTIFIER, irg4bc15ud-s.pdf</description>
+<packageinstances>
+<packageinstance name="D2PACK"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="78ADJ" urn="urn:adsk.eagle:symbol:30281/1" library_version="3">
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-5.08" width="0.4064" layer="94"/>
+<text x="2.54" y="-7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.032" y="-4.318" size="1.524" layer="95">ADJ</text>
+<text x="-4.445" y="-0.635" size="1.524" layer="95">IN</text>
+<text x="0.127" y="-0.635" size="1.524" layer="95">OUT</text>
+<pin name="IN" x="-7.62" y="0" visible="off" length="short" direction="in"/>
+<pin name="ADJ" x="0" y="-7.62" visible="off" length="short" direction="in" rot="R90"/>
+<pin name="OUT" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LD117A?*" urn="urn:adsk.eagle:component:30422/2" prefix="IC" library_version="3">
+<description>&lt;b&gt;Low drop fixed and adjustable positive voltage regulators&lt;/b&gt; 1 A&lt;p&gt;
+Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</description>
+<gates>
+<gate name="G$1" symbol="78ADJ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DT" package="DPACK">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30369/1"/>
+</package3dinstances>
+<technologies>
+<technology name="-TR"/>
+<technology name="12TR"/>
+<technology name="18TR"/>
+<technology name="25TR"/>
+<technology name="28TR"/>
+<technology name="33TR"/>
+<technology name="50TR"/>
+</technologies>
+</device>
+<device name="V" package="TO220L1">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30365/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+<technology name="12"/>
+<technology name="18"/>
+<technology name="25"/>
+<technology name="28"/>
+<technology name="33"/>
+<technology name="50"/>
+</technologies>
+</device>
+<device name="S" package="SOT223">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="4"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30370/1"/>
+</package3dinstances>
+<technologies>
+<technology name="12TR"/>
+<technology name="18TR"/>
+<technology name="25TR"/>
+<technology name="28TR"/>
+<technology name="33TR"/>
+<technology name="50TR"/>
+<technology name="TR"/>
+</technologies>
+</device>
+<device name="D2MTR" package="D2PACK">
+<connects>
+<connect gate="G$1" pin="ADJ" pad="1"/>
+<connect gate="G$1" pin="IN" pad="3"/>
+<connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:29497/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -1714,8 +2116,61 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/TUSB2077A"&gt; Datasheet &lt;/a&gt
 <part name="IC1" library="texas" library_urn="urn:adsk.eagle:library:387" deviceset="TUSB2046B" device="VFR" package3d_urn="urn:adsk.eagle:package:7566957/1"/>
 <part name="IC2" library="SamacSys_Parts" deviceset="TUSB2077APTR" device=""/>
 <part name="IC3" library="SamacSys_Parts" deviceset="TUSB2077APTR" device=""/>
+<part name="J2" library="SamacSys_Parts" deviceset="641737-1" device=""/>
+<part name="IC4" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" technology="12TR"/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="IC5" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" technology="12TR"/>
+<part name="SUPPLY1" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="IC6" library="v-reg" library_urn="urn:adsk.eagle:library:409" deviceset="LD117A?*" device="S" package3d_urn="urn:adsk.eagle:package:30370/1" technology="12TR"/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
+<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 </parts>
 <sheets>
+<sheet>
+<description>Power Supply</description>
+<plain>
+</plain>
+<instances>
+<instance part="J2" gate="G$1" x="15.24" y="20.32" smashed="yes">
+<attribute name="NAME" x="16.51" y="25.4" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="24.13" y="25.4" size="1.778" layer="96" align="center-left"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="35.56" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+<label x="38.1" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="GND1" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="3"/>
+<wire x1="15.24" y1="17.78" x2="10.16" y2="17.78" width="0.1524" layer="91"/>
+<label x="10.16" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="15.24" y1="20.32" x2="10.16" y2="20.32" width="0.1524" layer="91"/>
+<label x="10.16" y="20.32" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="12V" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="4"/>
+<wire x1="35.56" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
+<label x="38.1" y="17.78" size="1.778" layer="95"/>
+</segment>
+</net>
+</nets>
+</sheet>
 <sheet>
 <description>Master Hub</description>
 <plain>
@@ -1739,6 +2194,16 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/TUSB2077A"&gt; Datasheet &lt;/a&gt
 <attribute name="NAME" x="7.62" y="54.61" size="1.778" layer="95"/>
 <attribute name="VALUE" x="7.62" y="7.62" size="1.778" layer="96"/>
 </instance>
+<instance part="IC4" gate="G$1" x="129.54" y="71.12" smashed="yes">
+<attribute name="NAME" x="132.08" y="63.5" size="1.778" layer="95"/>
+<attribute name="VALUE" x="132.08" y="60.96" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY5" gate="G$1" x="119.38" y="73.66" smashed="yes">
+<attribute name="VALUE" x="119.38" y="76.454" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND12" gate="1" x="129.54" y="58.42" smashed="yes">
+<attribute name="VALUE" x="127" y="55.88" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -1758,6 +2223,11 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/TUSB2077A"&gt; Datasheet &lt;/a&gt
 <pinref part="M_OUT2" gate="G$1" pin="4"/>
 <wire x1="81.28" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 <label x="81.28" y="53.34" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="GND12" gate="1" pin="GND"/>
+<pinref part="IC4" gate="G$1" pin="ADJ"/>
+<wire x1="129.54" y1="60.96" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VUSB" class="0">
@@ -1811,6 +2281,21 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/TUSB2077A"&gt; Datasheet &lt;/a&gt
 <label x="76.2" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
+<net name="5V" class="0">
+<segment>
+<wire x1="119.38" y1="71.12" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SUPPLY5" gate="G$1" pin="5V"/>
+<pinref part="IC4" gate="G$1" pin="IN"/>
+<wire x1="119.38" y1="71.12" x2="121.92" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC_MASTER" class="0">
+<segment>
+<pinref part="IC4" gate="G$1" pin="OUT"/>
+<wire x1="137.16" y1="71.12" x2="152.4" y2="71.12" width="0.1524" layer="91"/>
+<label x="137.16" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -1850,10 +2335,42 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/TUSB2077A"&gt; Datasheet &lt;/a&gt
 <attribute name="NAME" x="54.61" y="152.4" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="54.61" y="149.86" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="IC5" gate="G$1" x="-40.64" y="154.94" smashed="yes">
+<attribute name="NAME" x="-38.1" y="147.32" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-38.1" y="144.78" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY1" gate="G$1" x="-50.8" y="157.48" smashed="yes">
+<attribute name="VALUE" x="-50.8" y="160.274" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND1" gate="1" x="-40.64" y="142.24" smashed="yes">
+<attribute name="VALUE" x="-43.18" y="139.7" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="GND1" gate="1" pin="GND"/>
+<pinref part="IC5" gate="G$1" pin="ADJ"/>
+<wire x1="-40.64" y1="144.78" x2="-40.64" y2="147.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<wire x1="-50.8" y1="154.94" x2="-50.8" y2="157.48" width="0.1524" layer="91"/>
+<pinref part="SUPPLY1" gate="G$1" pin="5V"/>
+<pinref part="IC5" gate="G$1" pin="IN"/>
+<wire x1="-50.8" y1="154.94" x2="-48.26" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HUB1_VCC" class="0">
+<segment>
+<pinref part="IC5" gate="G$1" pin="OUT"/>
+<wire x1="-33.02" y1="154.94" x2="-17.78" y2="154.94" width="0.1524" layer="91"/>
+<label x="-30.48" y="154.94" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 <sheet>
@@ -1893,10 +2410,42 @@ Source: &lt;a href="http://www.ti.com/lit/gpn/TUSB2077A"&gt; Datasheet &lt;/a&gt
 <attribute name="NAME" x="62.23" y="104.14" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="62.23" y="101.6" size="1.778" layer="96" align="center-left"/>
 </instance>
+<instance part="IC6" gate="G$1" x="-27.94" y="93.98" smashed="yes">
+<attribute name="NAME" x="-25.4" y="86.36" size="1.778" layer="95"/>
+<attribute name="VALUE" x="-25.4" y="83.82" size="1.778" layer="96"/>
+</instance>
+<instance part="SUPPLY2" gate="G$1" x="-38.1" y="96.52" smashed="yes">
+<attribute name="VALUE" x="-38.1" y="99.314" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND2" gate="1" x="-27.94" y="81.28" smashed="yes">
+<attribute name="VALUE" x="-30.48" y="78.74" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="GND" class="0">
+<segment>
+<pinref part="GND2" gate="1" pin="GND"/>
+<pinref part="IC6" gate="G$1" pin="ADJ"/>
+<wire x1="-27.94" y1="83.82" x2="-27.94" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V" class="0">
+<segment>
+<wire x1="-38.1" y1="93.98" x2="-38.1" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="5V"/>
+<pinref part="IC6" gate="G$1" pin="IN"/>
+<wire x1="-38.1" y1="93.98" x2="-35.56" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="HUB2_VCC" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="OUT"/>
+<wire x1="-20.32" y1="93.98" x2="-2.54" y2="93.98" width="0.1524" layer="91"/>
+<label x="-17.78" y="93.98" size="1.778" layer="95"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
